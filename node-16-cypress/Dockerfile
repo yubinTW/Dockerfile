@@ -7,3 +7,5 @@ RUN apt-get install -y libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-
 ENV CYPRESS_CACHE_FOLDER=/root/.cache/Cypress
 
 RUN npm i -g cypress@7.7.0
+
+RUN chmod 755 /root
