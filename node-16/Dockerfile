@@ -1,8 +1,8 @@
-FROM node:16.15.0-slim
+FROM node:16.15.1-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i -g npm@8.10.0
+RUN npm i --location=global npm@8.12.2
 
 RUN apt-get update && apt-get install -y \
     wget=1.20.1-1.1 \
@@ -16,4 +16,4 @@ RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod
     rm packages-microsoft-prod.deb
 
 RUN apt-get update && \
-  apt-get install -y dotnet-runtime-6.0=6.0.5-1
+    apt-get install -y dotnet-runtime-6.0=6.0.5-1

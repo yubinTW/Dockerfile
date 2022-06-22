@@ -6,8 +6,8 @@ Debian 10
 
 ## Install Package
 
-- `node` 16.15.0
-- `npm` 8.10.0
+- `node` 16.15.1
+- `npm` 8.12.2
 - `wget` 1.20.1-1.1
 - `curl` 7.64.0-4+deb10u2
 - `build-essential` 12.6
@@ -18,7 +18,7 @@ Debian 10
 ## Build image
 
 ```
-docker build -t yubintw/node:16-0.0.1 .
+docker build -t yubintw/node:16-0.0.2 .
 ```
 
 ## docker hub
