@@ -9,3 +9,5 @@ ENV CYPRESS_CACHE_FOLDER=/root/.cache/Cypress
 RUN npm i -g cypress@7.7.0
 
 RUN chmod 755 /root
+
+RUN cypress verify
