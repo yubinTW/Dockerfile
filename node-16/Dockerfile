@@ -2,7 +2,7 @@ FROM node:16.15.1-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@8.12.2
+RUN npm i --location=global npm@8.13.2
 
 RUN apt-get update && apt-get install -y \
     wget=1.20.1-1.1 \
