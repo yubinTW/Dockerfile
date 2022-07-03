@@ -1,10 +1,4 @@
-# node 16
-
-with Cypress binary
-
-```
-wget -O cypress.zip https://download.cypress.io/desktop/7.7.0?platform=linux&arch=x64
-```
+# node 16 with Cypress 10.3.0
 
 ## Environment
 
@@ -13,8 +7,8 @@ Debian 10
 ## Install Package
 
 - `node` 16.15.1
-- `npm` 8.12.2
-- `cypress` 7.7.0
+- `npm` 8.13.1
+- `cypress` 10.3.0
 - `wget` 1.20.1-1.1
 - `curl` 7.64.0-4+deb10u2
 - `build-essential` 12.6
@@ -25,7 +19,7 @@ Debian 10
 ## Build image
 
 ```
-docker build -t yubintw/node:16-cypress-0.0.7 .
+docker build -t yubintw/node:16-cypress-10.3.0 .
 ```
 
 ## docker hub

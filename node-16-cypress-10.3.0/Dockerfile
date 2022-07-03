@@ -1,4 +1,4 @@
-FROM yubintw/node:16-0.0.2
+FROM yubintw/node:16-0.0.3
 
 LABEL MAINTAINER="Yubin, Hsu"
 
@@ -14,7 +14,7 @@ ENV _MITSHM=0
 
 ENV CYPRESS_CACHE_FOLDER=/root/.cache/Cypress
 
-RUN npm i -g cypress@7.7.0
+RUN npm i -g cypress@10.3.0
 
 RUN chmod 755 /root
 
