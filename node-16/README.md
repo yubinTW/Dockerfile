@@ -18,7 +18,7 @@ Debian 10
 ## Build image
 
 ```
-docker build -t yubintw/node:16.16.0-0.0.1 .
+docker build -t yubintw/node:16-0.0.5 .
 ```
 
 ## docker hub
@@ -27,7 +27,7 @@ https://hub.docker.com/r/yubintw/node
 
 ## Change Log
 
-### 16.16.0-0.0.1
+### 16-0.0.5
 
 node 16.16.0
 npm 8.14.0
