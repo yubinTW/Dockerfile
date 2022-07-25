@@ -22,7 +22,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/data/db2/drivers/odbc_cli/l
 ## Build image
 
 ```
-docker build -t yubintw/node:16-db2-0.0.1 .
+docker build -t yubintw/node:16-db2-0.0.2 .
 ```
 
 ## docker hub
@@ -30,3 +30,7 @@ docker build -t yubintw/node:16-db2-0.0.1 .
 https://hub.docker.com/r/yubintw/node
 
 ## Change Log
+
+### 0.0.2
+
+npm config set tarball /db2/node-v16.16.0-headers.tar.gz
