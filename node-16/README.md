@@ -15,11 +15,12 @@ Debian 10
 - `apt-transport-https` 1.8.2.3
 - `dotnet-runtime-6.0` 6.0.5-1
 - `iputils-ping` 3:20180629-2+deb10u2
+- `dnsutils` 1:9.11.5.P4+dfsg-5.1+deb10u7
 
 ## Build image
 
 ```
-docker build -t yubintw/node:16-0.1.0 .
+docker build -t yubintw/node:16-0.2.0 .
 ```
 
 ## docker hub
@@ -27,6 +28,10 @@ docker build -t yubintw/node:16-0.1.0 .
 https://hub.docker.com/r/yubintw/node
 
 ## Change Log
+
+### 16-0.2.0
+
+add `dnsutils`
 
 ### 16-0.1.0
 
