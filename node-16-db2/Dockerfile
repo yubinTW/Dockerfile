@@ -1,4 +1,4 @@
-FROM yubintw/node:16-0.0.6
+FROM yubintw/node:16-0.2.0
 
 LABEL MAINTAINER="Yubin, Hsu"
 
