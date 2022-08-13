@@ -19,7 +19,7 @@ Debian 10
 ## Build image
 
 ```
-docker build -t yubintw/node:16-cypress-10.3.1 .
+docker build -t yubintw/node:16-cypress-10.4.0 .
 ```
 
 ## docker hub
