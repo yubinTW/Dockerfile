@@ -1,12 +1,12 @@
-FROM node:16.16.0-slim
+FROM node:16.17.0-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@8.17.0
+RUN npm i --location=global npm@8.19.0
 
 RUN apt-get update && apt-get install -y \
     wget=1.20.1-1.1 \
-    curl=7.64.0-4+deb10u2 \
+    curl=7.64.0-4+deb10u3 \
     build-essential=12.6 \
     software-properties-common=0.96.20.2-2 \
     apt-transport-https=1.8.2.3 \
