@@ -6,21 +6,21 @@ Debian 10
 
 ## Install Package
 
-- `node` 16.17.0
-- `npm` 8.19.0
-- `wget` 1.20.1-1.1
-- `curl` 7.64.0-4+deb10u3
-- `build-essential` 12.6
-- `software-properties-common` 0.96.20.2-2
-- `apt-transport-https` 1.8.2.3
-- `dotnet-runtime-6.0` 6.0.5-1
-- `iputils-ping` 3:20180629-2+deb10u2
-- `dnsutils` 1:9.11.5.P4+dfsg-5.1+deb10u7
+- `node` 16.18.0
+- `npm` 8.19.2
+- `wget`
+- `curl`
+- `build-essential`
+- `software-properties-common`
+- `apt-transport-https`
+- `dotnet-runtime-6.0`
+- `iputils-ping`
+- `dnsutils`
 
 ## Build image
 
 ```
-docker build -t yubintw/node:16-0.3.0 .
+docker build -t yubintw/node:16-0.4.0 .
 ```
 
 ## docker hub
@@ -28,6 +28,11 @@ docker build -t yubintw/node:16-0.3.0 .
 https://hub.docker.com/r/yubintw/node
 
 ## Change Log
+
+### 16-0.4.0
+
+node 16.18.0
+npm 8.19.2
 
 ### 16-0.3.0
 
