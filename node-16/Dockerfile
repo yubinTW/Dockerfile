@@ -2,7 +2,7 @@ FROM node:16.18.1-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@9.1.2
+RUN npm i --location=global npm@8.19.3
 
 RUN apt-get update && apt-get install -y \
     wget \
@@ -11,7 +11,10 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     apt-transport-https \
     iputils-ping \
-    dnsutils
+    dnsutils \
+    unzip \
+    libaio1 \
+    libaio-dev
 
 RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && \
     dpkg -i packages-microsoft-prod.deb && \
