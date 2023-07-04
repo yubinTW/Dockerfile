@@ -1,12 +1,15 @@
-FROM node:18.16.0-slim
+FROM node:18.16.1-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@9.6.4
+RUN npm i --location=global npm@9.7.2
 
 RUN apt-get update && apt-get install -y \
     wget \
     curl \
+    git \
+    g++ \
+    python3 \
     build-essential \
     software-properties-common \
     apt-transport-https \
