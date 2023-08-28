@@ -1,8 +1,8 @@
-FROM node:18.16.1-slim
+FROM node:18.17.1-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@9.7.2
+RUN npm i --location=global npm@9.8.1
 
 RUN apt-get update && apt-get install -y \
     wget \
