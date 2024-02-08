@@ -7,7 +7,7 @@ Debian 12
 ## Install Package
 
 - `node` 20.10.0
-- `npm` 10.2.4
+- `npm` 10.4.0
 - `wget`
 - `curl`
 - `git`
@@ -21,11 +21,16 @@ Debian 12
 - `unzip`
 - `libaio1`
 - `libaio-dev`
+- `libcairo2-dev`
+- `libpango1.0-dev`
+- `libjpeg-dev`
+- `libgif-dev`
+- `librsvg2-dev`
 
 ## Build image
 
 ```
-docker build -t yubintw/node:20-0.0.1 .
+docker build -t yubintw/node:20-0.0.2 .
 ```
 
 ## docker hub
