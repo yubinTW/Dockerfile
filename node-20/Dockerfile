@@ -1,8 +1,8 @@
-FROM node:20.11.0-slim
+FROM node:20.11.1-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@10.4.0
+RUN npm i --location=global npm@10.5.0
 
 RUN apt-get update && apt-get install -y \
     wget \

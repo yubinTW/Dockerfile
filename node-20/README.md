@@ -6,8 +6,8 @@ Debian 12
 
 ## Install Package
 
-- `node` 20.10.0
-- `npm` 10.4.0
+- `node` 20.11.1
+- `npm` 10.5.0
 - `wget`
 - `curl`
 - `git`
@@ -30,7 +30,7 @@ Debian 12
 ## Build image
 
 ```
-docker build -t yubintw/node:20-0.0.2 .
+docker build -t yubintw/node:20-0.0.3 .
 ```
 
 ## docker hub
