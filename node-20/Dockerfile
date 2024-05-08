@@ -1,8 +1,8 @@
-FROM node:20.12.2-slim
+FROM node:20.13.0-slim
 
 LABEL MAINTAINER="Yubin, Hsu"
 
-RUN npm i --location=global npm@10.6.0
+RUN npm i --location=global npm@10.7.0
 
 RUN apt-get update && apt-get install -y \
     wget \
@@ -16,6 +16,3 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     dnsutils \
     unzip \
-    libaio1 \
-    libaio-dev \
-    libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev 
